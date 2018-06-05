@@ -1,0 +1,1 @@
+# TrustSDK-Xamarin-Android
