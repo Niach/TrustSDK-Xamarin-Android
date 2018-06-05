@@ -106,13 +106,13 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TrustSDKClient-Xamarin-Android\TrustSDKClient-Xamarin-Android.csproj">
-      <Project>{ED8B64D4-2A11-44B7-B6A5-3BABB9FB3695}</Project>
-      <Name>TrustSDK-Xamarin-Android</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TrustCore-Xamarin-Android\TrustCore-Xamarin-Android.csproj">
       <Project>{A4FB4EEF-CA96-4704-9FD9-B5CFB7A224B6}</Project>
       <Name>TrustCore-Xamarin-Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrustSDK-Xamarin-Android\TrustSDK-Xamarin-Android.csproj">
+      <Project>{ED8B64D4-2A11-44B7-B6A5-3BABB9FB3695}</Project>
+      <Name>TrustSDK-Xamarin-Android</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

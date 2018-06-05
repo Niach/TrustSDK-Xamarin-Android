@@ -79,7 +79,6 @@ namespace SampleApp
         public void OnFail(IRequest p0, int p1)
         {
             Toast.MakeText(context, "Failure: " + p1, ToastLength.Long);
-
         }
     }
 
