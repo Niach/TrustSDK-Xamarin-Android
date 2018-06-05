@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustCore-Xamarin-Android", "TrustCore-Xamarin-Android\TrustCore-Xamarin-Android.csproj", "{A4FB4EEF-CA96-4704-9FD9-B5CFB7A224B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustSDK-Xamarin-Android", "TrustSDKClient-Xamarin-Android\TrustSDK-Xamarin-Android.csproj", "{ED8B64D4-2A11-44B7-B6A5-3BABB9FB3695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{4F2F5E74-49FF-453C-9887-77B13F0CEF83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4FB4EEF-CA96-4704-9FD9-B5CFB7A224B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FB4EEF-CA96-4704-9FD9-B5CFB7A224B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FB4EEF-CA96-4704-9FD9-B5CFB7A224B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FB4EEF-CA96-4704-9FD9-B5CFB7A224B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8B64D4-2A11-44B7-B6A5-3BABB9FB3695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8B64D4-2A11-44B7-B6A5-3BABB9FB3695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8B64D4-2A11-44B7-B6A5-3BABB9FB3695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8B64D4-2A11-44B7-B6A5-3BABB9FB3695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2F5E74-49FF-453C-9887-77B13F0CEF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2F5E74-49FF-453C-9887-77B13F0CEF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2F5E74-49FF-453C-9887-77B13F0CEF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2F5E74-49FF-453C-9887-77B13F0CEF83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
